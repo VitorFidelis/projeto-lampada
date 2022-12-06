@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: slategray;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.541);
+}
+
+.Conteudo{
+    background-color: black;
+    width: 35%;
+    margin: auto;
+    margin-top: 29px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.219);
+}
+
+div.Foto{
+    width: 60%;
+    margin: auto;
+}
+
+div.Foto > img{
+    width: 60%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+div.Controle{
+    background-color: black;
+    width: 15%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.219);
+}
+
+div.Controle > .Ligar{
+    background-color: rgb(180, 152, 114);
+    color: whitesmoke;
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+div.Controle >.Desligar{
+    background-color: rgb(180, 152, 114);
+    color: whitesmoke;
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+}
