@@ -14,7 +14,7 @@ h1{
 
 .Conteudo{
     background-color: black;
-    width: 35%;
+    width: 45%;
     margin: auto;
     margin-top: 29px;
     margin-bottom: 10px;
@@ -37,7 +37,6 @@ div.Foto > img{
 div.Controle{
     background-color: black;
     width: 15%;
-    height: 50px;
     margin: auto;
     display: flex;
     justify-content: center;
